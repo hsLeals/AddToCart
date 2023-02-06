@@ -1,0 +1,6 @@
+<img class="ap" src="airpods.jpeg" alt="">
+<img class="aw" src="applewatch.png" alt="">
+<img class="iph" src="iphone11pro.png" alt="">
+<img class="mb" src="macbook.png" alt="">
+<div class="items"><img class="ipd" src="ipadpro12.png" alt=""><span class="name">Airpods Pro</span>
+    <span class="num">3</span><span class="cst">299999</span><i class="fa-solid fa-trash"></i></div>

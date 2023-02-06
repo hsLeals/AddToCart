@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="products"> <select name="Filter" aria-placeholder="filter" id="filter">
+        <option value="">--Please choose an option--</option>
+        <option value="airpods">Airpods Pro</option>
+        <option value="applewatch">Apple Watch</option>
+        <option value="macbook">Macbook Pro</option>
+        <option value="iphone11pro">iPhone 11 Pro</option>
+        <option value="ipadpro12">iPad Pro</option>
+    </select> <i class="fa-solid fa-cart-shopping"></i><div class="number"><span>0</span></div></div>
+    <div class="cartDiv">
+        <div class="cart-side">
+            <span class="cart">Cart</span><i class="fa-solid fa-xmark x-icon"></i>
+            <span class="notification">Looks Like You Haven't Added Any Product In The Cart</span>
+            <div class="cart-item"></div>
+            <span class="total">Total: ₹ 0.00/-</span>
+            <a href="" class="purchase">Purchase <i class="fa-solid fa-credit-card"></i></a>
+            <a href="#" class="clear">Clear Cart <i class="fa-solid fa-trash"></i></a>
+        </div>
+    </div>
+    <script src="product.js"></script>
+</body>
+</html>
